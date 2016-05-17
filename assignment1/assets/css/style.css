@@ -176,7 +176,7 @@ p, li{
 		width: 90%;
 	}
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
 	img {
 		float: none;
 		width: auto;

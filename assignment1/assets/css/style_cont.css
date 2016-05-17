@@ -1,0 +1,35 @@
+input[type=text] {
+	width: 100%;
+	height: 35px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+input[type=submit] {
+	width: 100px;
+	height: 35px;
+	margin: 8px 0;
+	background-color: #4aaaa5;
+	color: #ffffff;	
+	box-sizing: border-box;
+}
+label{
+	font-family: Arial;
+	font-size: 13px;
+	color: #777777;
+}
+#message {
+	width: 100%;
+	height: 100px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+#form-input{
+	border-radius: 5px;
+}
+#form-input:hover {
+	background-color: #ffffff;
+	color: #4aaaa5;
+	font-size: 18px;
+	font-weight: bold;
+
+}

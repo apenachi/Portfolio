@@ -1,0 +1,38 @@
+article {
+	overflow: auto;
+	position: relative;
+	margin: 10 auto;
+	height: 100%;
+
+}
+img {
+	border-radius: 5%;
+}
+article img:hover {
+    /*border-radius: 85%;*/
+
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+}
+article h2 {
+	position: absolute;
+	font-size: 18px;
+	bottom: 10px;
+	height: 30px;
+	width: 100%;
+	background-color: #4aaaa5;
+	color: white;
+	line-height: 30px;
+	margin: 0px;
+	border-bottom: 0px;
+	text-align: center;
+}
+.left {
+	float: left;
+	margin-bottom: 0px;
+}
+.right {
+	float: right;
+	margin-bottom: 0px;
+}

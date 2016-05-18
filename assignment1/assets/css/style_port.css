@@ -1,5 +1,5 @@
 article {
-	overflow: auto;
+	/*overflow: auto;*/
 	position: relative;
 	margin: 10 auto;
 	height: 100%;
@@ -67,8 +67,6 @@ article h2 {
 	}
 	ul, h3 {
 		text-align: left;
-		font-weight: bold;
-		font-size: 24px;
 		margin-left: 20px;
 	}
 	.icons {
@@ -77,8 +75,21 @@ article h2 {
 }
 
 @media screen and (max-width: 640px) {
+	header ul {
+		position: static;
+	}
+	header {
+		width: 55%;
+	}
+	nav {
+		margin: 0px;
+	}
 	.left, .right {
-		clear: both;
+		margin: 5px 10px;
+		float: left
+	}
+	article h2 {
+		margin-bottom: 30px;
 	}
 	article img {
 		float: none;
@@ -97,19 +108,18 @@ article h2 {
 	}
 	section {
 		margin-bottom: 25px;
-		width: 66%;
+		width: 55%;
 	}
 	aside {
-		width: 66%;
-		margin: 0px 85px 60px;
+		width: 55%;
+		height: auto;
 	}
-	ul, h3 {
+	ul, h3{
 		text-align: left;
-		font-weight: bold;
-		font-size: 24px;
-		margin-left: 20px;
+		margin: 20px;
 	}
 	.icons {
 		width: 90%;
+		margin-bottom: 75px;
 	}
 }

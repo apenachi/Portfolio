@@ -5,25 +5,40 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="assets/css/superhero.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<style type="text/css">
+	.navbar-brand {
+		font-size:30px;
+		/*background:#333;*/
+		margin-left: 50px;
+	}
+	</style>
 </head>
 <body>
 	<header>
-		<div class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
 				<div class="navbar-header">
-					<a href="../" class="navbar-brand" style="font-size:30px; background:#333;">Alexander Penachi</a>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my_navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Alexander Penachi</a>
 				</div>
-				<div id="navbar" class="navbar-collapse collapse">
-				<nav>
-					<ul class="nav nav-pills navbar-right">
-						<li class="active"><a href="index.html" target="_blank">About</a></li>
-						<li><a href="portfolio.html" target="_blank">Portfolio</a></li>
-						<li><a href="contact.html" target="_blank">Contact</a></li>
+				<div class="collapse navbar-collapse" id="my_navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="index.html">About</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
-				</nav>
 				</div>
 			</div>
-		</div>
+		</nav>
 	</header>
 
 	<div class="container">
@@ -31,12 +46,37 @@
 				<section>
 					<article class="col-sm-8">
 						<h2>About Me</h2>
-						<img src="assets/img/apenachi.png" class="img-index" width="175px" height="150px"/>
-						<p>Most people call me Alex. I'm father of two girls, both graduated the same year 2014. Violeta from computer engineering and Valeria from kindergarden. My interest in computer programming started when I was young, I mean really really young and always enjoyed the pressure and challenges. It's been said is never too late to learn something new but I don't know about being too old. I enjoy playing soccer during the weekends and watching a good movie when possible, if there is something that I might like as much as coding is going out dancing. The last two weeks have been really excited and I'm pretty sure things are going to get <strike>worse</strike> I meant better but hope I can keep up with the pace. I also like to help others so please do not be afraid to say hi ;-)
-						</p>			
+						<img src="assets/img/apenachi.png" class="pull-left img-index" width="200px" height="150px"/>
+						<p>Most people call me Alex. I'm father of two girls, both graduated the same year 2014. Violeta from computer engineering and Valeria from kindergarden. My interest in computer programming started when I was young, I mean really really young and always enjoyed the pressure and challenges. It's been said is never too late to learn something new but I don't know about being too old. I enjoy playing soccer during the weekends and watching a good movie when possible, if there is something that I might like as much as coding is going out dancing. The last two weeks have been really excited and I'm pretty sure things are going to get <strike>worse</strike> I meant better but hope I can keep up with the pace. I also like to help others so please do not be afraid to say hi ;-)</p>			
 					</article>
 			
 					<aside class="col-sm-4">
+
+						<div class="panel panel-default">
+							<div class="panel-heading"><h4 class="text-center">Connect with Me</h4></div>
+							<div class="panel-body">
+								<ul class="nav navbar-nav">
+									<li>
+										<a href="https://github.com/apenachi">
+											<img src="assets/img/github.png" width="35" height="35">
+										</a>
+									</li>
+									<li id="mid">
+										<a href="https://www.linkedin.com/in/alexander-penachi-13a6a213">
+											<img src="assets/img/linkedin.png" width="35" height="35">
+										</a>
+									</li>
+									<li>
+										<a href="http://stackoverflow.com/users/2686192/apenachi">
+											<img src="assets/img/stackoverflow.png" width="35" height="35">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+<!-- 
+
 						<h3>Connect with Me</h3>
 						<ul class="icons">
 							<li>
@@ -55,13 +95,12 @@
 								</a>
 							</li>
 						</ul>
-					</aside>
+ -->					</aside>
 				</section>
 			</div>			
 		<footer>
 			<h4>&copy; Copyright 2016 apenachi@yahoo.com</h4>
 		</footer>	
 	</div>
-
 </body>
 </html>
